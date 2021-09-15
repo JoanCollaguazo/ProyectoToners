@@ -6,7 +6,7 @@ const Index = () =>{
     return(
         <div>
         <Navigation/>
-        <h1>Index</h1>
+        <h1>Index si me la mamas mas me crece</h1>
         </div>
     )
 }
