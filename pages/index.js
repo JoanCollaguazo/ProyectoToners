@@ -9,6 +9,7 @@ const Index = () =>{
         <h1>Index</h1>
         <h1>HOLA MUNDO ESTOY EN PRUEBA</h1>
         <h1>HOLA DANIEL</h1>
+        <h3>TU GALLO ES TONTO</h3>
         </div>
     )
 }
