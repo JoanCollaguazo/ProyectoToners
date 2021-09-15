@@ -9,7 +9,7 @@ const Navigation = () =>{
                 <a>Inicio</a>
                 </Link>
             </li>
-            <li>
+            <li> 
                 <Link href="/planes">
                 <a>Planes</a>
                 </Link>
@@ -33,4 +33,4 @@ const Navigation = () =>{
     )
 }
 
-export default Navigation;
+export default Navigation; 
