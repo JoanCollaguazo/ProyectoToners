@@ -3,22 +3,27 @@ import Link from 'next/link';
 
 const Navigation = () =>{
     return(
+        <div>
+
         <ul>
-            <li>
-                <Link href="/index">
-                <a>Inicio</a>
-                </Link>
-            </li>
             <li> 
                 <Link href="/planes">
                 <a>Planes</a>
                 </Link>
             </li>
+
             <li>
                 <Link href="/servicios">
                 <a>Servicios</a>
                 </Link>
             </li>
+
+            <li>
+                <Link href="/inicio">
+                <a>Inicio</a>
+                </Link>
+            </li>
+            
             <li>
                 <Link href="/contacto">
                 <a>Contacto</a>
@@ -30,6 +35,7 @@ const Navigation = () =>{
                 </Link> 
             </li>
         </ul>
+        </div>
     )
 }
 
