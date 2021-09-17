@@ -9,4 +9,4 @@ const inicio=()=>{
     </div>
     )
     }
-export default inicio;    
+export default inicio;   

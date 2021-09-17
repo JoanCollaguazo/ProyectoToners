@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../components/navigation";
 
+
 const index=()=>{
     return(
     <div>
@@ -9,4 +10,7 @@ const index=()=>{
     </div>
     )
     }
+
 export default index;    
+
+

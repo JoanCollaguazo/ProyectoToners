@@ -2,11 +2,20 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
+=======
+  "/registro": "pages/registro.js",
+>>>>>>> 47baca7ee8a4ba508a5d9b734f7afb8ce11c3ee7
   "/": "pages/index.js",
   "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
   "/planes": "pages/planes.js",
   "/servicios": "pages/servicios.js",
   "/inicio": "pages/inicio.js",
   "/contacto": "pages/contacto.js",
+<<<<<<< HEAD
   "/registro": "pages/registro.js"
+=======
+  "/servicios": "pages/servicios.js",
+  "/planes": "pages/planes.js"
+>>>>>>> 47baca7ee8a4ba508a5d9b734f7afb8ce11c3ee7
 }
