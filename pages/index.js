@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../components/navigation";
 
-const inicio=()=>{
+const index=()=>{
     return(
     <div>
         <Navigation/>
@@ -9,4 +9,4 @@ const inicio=()=>{
     </div>
     )
     }
-export default inicio;    
+export default index;    

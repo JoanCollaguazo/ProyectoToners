@@ -10,7 +10,7 @@ const Planes = () =>{
                 <link rel="stylesheet" href="pages/estilos.css"/>
             </Head>
         <Navigation/>
-        <h1 class="h1">Planesd</h1>
+        <h1 class="h1">Planes</h1>
         </div>)
 }
 

@@ -4,7 +4,6 @@ import Link from 'next/link';
 const Navigation = () =>{
     return(
         <div>
-
         <ul>
             <li> 
                 <Link href="/planes">
