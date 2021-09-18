@@ -5,7 +5,7 @@ const registro=()=>{
     return(
     <div>
         <Navigation/>
-        <h1>Registro</h1>
+        <h1><br></br>Registro</h1>
     </div>
     )
     }

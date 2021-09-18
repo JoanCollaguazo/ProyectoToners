@@ -5,7 +5,7 @@ const inicio=()=>{
     return(
     <div>
         <Navigation/>
-        <h1>Inicio</h1>
+        <h1><br></br> Inicio</h1>
     </div>
     )
     }

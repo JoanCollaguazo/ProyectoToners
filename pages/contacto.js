@@ -5,7 +5,7 @@ const Contacto = () =>{
     return(
         <div>
         <Navigation/>
-        <h1>Contacto</h1>
+        <h1><br></br> Contacto</h1>
         </div>
     )
 }
