@@ -4,8 +4,9 @@ import Navigation from "../components/navigation";
 const servicios=()=>{
     return(
     <div>
-        <Navigation/>
-        <h1><br></br> Servicios</h1>
+        <Navigation title="SERVICIOS - FACTURO">
+        <h1>Servicios</h1>
+        </Navigation>
     </div>
     )
     }
