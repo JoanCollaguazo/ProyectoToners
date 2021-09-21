@@ -6,41 +6,40 @@ import head from "next/head";
 const Navigation = ({ title }) => {
   return (
     //TITLE DE CADA PAGINA VA EN HEAD
-    <div className = {styles.container}>
+    <header className = {styles.container}>
       <head>
         <title>{title}</title>
       </head>
-      <ul>
-        <li>
+
           <Link href="/planes">
-            <a> Planes</a>
+            <a>PLANES</a>
           </Link>
-        </li>
+        
 
-        <li>
+        
           <Link href="/servicios">
-            <a>Servicios</a>
+            <a>SERVICIOS</a>
           </Link>
-        </li>
+        
 
-        <li>
+        
           <Link href="/inicio">
-            <a>Inicio</a>
+          <img className={styles.img} src="imagenes/LogoFacturo2.jpeg"/>
           </Link>
-        </li>
+        
 
-        <li>
+        
           <Link href="/contacto">
-            <a>Contacto</a>
+            <a>CONTACTO</a>
           </Link>
-        </li>
-        <li>
+        
+        
           <Link href="/registro">
-            <a>Registro</a>
+            <a>REGISTRO</a>
           </Link>
-        </li>
-      </ul>
-    </div>
+        
+      
+    </header>
   );
 };
 
