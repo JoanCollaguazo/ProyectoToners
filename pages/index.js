@@ -4,9 +4,9 @@ import Navigation from "../components/navigation";
 const index = () => {
   return (
     <div>
-      <Navigation title="FACTURO">
+      <Navigation title="FACTURO"></Navigation>
         <h1>Inicio</h1>
-      </Navigation>
+      
     </div>
   );
 };

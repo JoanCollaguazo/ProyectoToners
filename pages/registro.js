@@ -4,9 +4,8 @@ import Navigation from "../components/navigation";
 const registro = () => {
   return (
     <div>
-      <Navigation title="REGISTRO - FACTURO">
+      <Navigation title="REGISTRO - FACTURO"></Navigation>
         <h1>Registro</h1>
-      </Navigation>
     </div>
   );
 };

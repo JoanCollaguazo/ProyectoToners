@@ -5,9 +5,8 @@ import Navigation from "../components/navigation";
 const Planes = () => {
   return (
     <div>
-      <Navigation title="PLANES - FACTURO">
+      <Navigation title="PLANES - FACTURO"></Navigation>
         <h1>Planes</h1>
-      </Navigation>
     </div>
   );
 };

@@ -3,14 +3,15 @@ import Link from "next/link";
 import styles from "../styles/navigation.module.css";
 import head from "next/head";
 
+
 const Navigation = ({ title }) => {
   return (
     //TITLE DE CADA PAGINA VA EN HEAD
-    <header className = {styles.container}>
+    <div className = {styles.container}>
       <head>
         <title>{title}</title>
       </head>
-
+          <div className={styles.menu}>
           <Link href="/planes">
             <a>PLANES</a>
           </Link>
@@ -24,7 +25,7 @@ const Navigation = ({ title }) => {
 
         
           <Link href="/inicio">
-          <img className={styles.img} src="imagenes/LogoFacturo2.jpeg"/>
+          <a><img className={styles.img} src="imagenes/LogoFacturo2.jpeg"/></a>
           </Link>
         
 
@@ -37,9 +38,9 @@ const Navigation = ({ title }) => {
           <Link href="/registro">
             <a>REGISTRO</a>
           </Link>
-        
+          </div>
       
-    </header>
+    </div>
   );
 };
 
