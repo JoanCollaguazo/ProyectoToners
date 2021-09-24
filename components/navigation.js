@@ -3,43 +3,36 @@ import Link from "next/link";
 import styles from "../styles/navigation.module.css";
 import head from "next/head";
 
-
 const Navigation = ({ title }) => {
   return (
     //TITLE DE CADA PAGINA VA EN HEAD
-    <div className = {styles.container}>
+    <div className={styles.container}>
       <head>
         <title>{title}</title>
       </head>
-          <div className={styles.menu}>
-          <Link href="/planes">
-            <a>PLANES</a>
-          </Link>
-        
+      <div className={styles.menu}>
+        <Link href="/planes">
+          <a>PLANES</a>
+        </Link>
 
-        
-          <Link href="/servicios">
-            <a>SERVICIOS</a>
-          </Link>
-        
+        <Link href="/servicios">
+          <a>SERVICIOS</a>
+        </Link>
 
-        
-          <Link href="/inicio">
-          <a><img className={styles.img} src="imagenes/LogoFacturo2.jpeg"/></a>
-          </Link>
-        
+        <Link href="/inicio">
+          <a>
+            <img className={styles.img} src="imagenes/LogoFacturo2.jpeg" />
+          </a>
+        </Link>
 
-        
-          <Link href="/contacto">
-            <a>CONTACTO</a>
-          </Link>
-        
-        
-          <Link href="/registro">
-            <a>REGISTRO</a>
-          </Link>
-          </div>
-      
+        <Link href="/contacto">
+          <a>CONTACTO</a>
+        </Link>
+
+        <Link href="/registro">
+          <a>REGISTRO</a>
+        </Link>
+      </div>
     </div>
   );
 };
