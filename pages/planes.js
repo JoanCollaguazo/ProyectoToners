@@ -6,7 +6,7 @@ const Planes = () => {
   return (
     <div>
       <Navigation title="PLANES - FACTURO"></Navigation>
-        <h1>Planes</h1>
+      <h1>Planes</h1>
     </div>
   );
 };
