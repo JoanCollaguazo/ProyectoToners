@@ -2,10 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
   "/planes": "pages/planes.js",
-  "/servicios": "pages/servicios.js"
-=======
-  "/inicio": "pages/inicio.js"
->>>>>>> a0946611b3f35b8d15bdd6250e9744cd66575b16
+  "/": "pages/index.js",
+  "/inicio": "pages/inicio.js",
+  "/servicios": "pages/servicios.js",
+  "/contacto": "pages/contacto.js",
+  "/registro": "pages/registro.js"
 }

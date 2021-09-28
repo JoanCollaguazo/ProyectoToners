@@ -14,6 +14,11 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -24,19 +29,30 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/contacto": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contacto.js"
+    ],
+    "/inicio": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/inicio.js"
+    ],
     "/planes": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-<<<<<<< HEAD
       "static/chunks/pages/planes.js"
+    ],
+    "/registro": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/registro.js"
     ],
     "/servicios": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/servicios.js"
-=======
-      "static/chunks/pages/inicio.js"
->>>>>>> a0946611b3f35b8d15bdd6250e9744cd66575b16
     ]
   },
   "ampFirstPages": []
