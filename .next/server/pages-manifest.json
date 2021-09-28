@@ -2,11 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/planes": "pages/planes.js",
   "/inicio": "pages/inicio.js",
-  "/contacto": "pages/contacto.js",
-  "/registro": "pages/registro.js",
-  "/servicios": "pages/servicios.js"
+  "/planes": "pages/planes.js"
 }
