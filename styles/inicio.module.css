@@ -1,6 +1,6 @@
 .body {
   padding: 0;
-  margin: 0;
+  margin: 0; 
   box-sizing: border-box;
   /* margin-top: 0;
   margin-left: ;
@@ -32,33 +32,13 @@
   margin-top: -2%;
 }
 
-.img1 {
-  /* EFECTO RELAJANTE */
-  -webkit-transform: scale(1, 1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 250ms;
-  -moz-transform: scale(1, 1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 250ms;
-
-  vertical-align: top;
-  padding: 55px;
-  position: relative;
-  overflow: hidden;
-  max-width: 100%;
-  height: auto;
+.img1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.img1:hover {
-  /* transform: scale(1.01);
-  cursor: pointer; */
-  -webkit-transform: scale(1.05, 1.05);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 300ms;
-  -moz-transfom: scale(1.12, 1.22);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-function: 100ms;
-}
+
 
 .img2 {
   vertical-align: top;
@@ -106,4 +86,37 @@
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
+}
+
+.slider{
+  width: 100%;
+  margin: auto;
+  height: 900px;
+  overflow: hidden;
+}
+
+.slider ul{
+  padding: 0%;
+  display: flex;
+  width: 200%;
+
+  animation: slider 15s infinite;
+}
+
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+
+.slider li img{
+  width: 100%;
+}
+
+@keyframes slider{
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+
 }

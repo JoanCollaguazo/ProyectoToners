@@ -6,9 +6,16 @@ const inicio = () => {
   return (
     <div>
       <Navigation title="FACTURO"></Navigation>
-      {/* <h1 align="center">Inicio</h1> */}
+      
 
       <br></br>
+
+      <div className={styles.slider}>
+        <ul>
+          <li><img src="imagenes/slider1.png" alt=""></img></li>
+          <li><img src="imagenes/slider2.jpg" alt=""></img></li>
+        </ul>
+      </div>
 
       <body className={styles.body}>
         <h4 className={styles.h4}>¿QUÉ ES LA FACTURACIÓN ELECTRÓNICA?</h4>
