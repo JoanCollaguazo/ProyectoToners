@@ -2,43 +2,34 @@
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
-  /* margin-top: 0;
-  margin-left: ;
-  margin-right: 10px; */
 }
 
 .p {
   text-align: justify;
-  margin-left: 50%;
+  margin-left: 10%;
   margin-right: 10%;
   color: #396083;
   box-sizing: border-box;
   font-size: 13pt;
 }
 .h4 {
+  margin-top: -50px;
   color: #073863;
-  text-align: center;
+  margin-left: 600px;
 }
 
 .img {
   /* estilo reposiv */
   border-style: none;
-  max-width: 100%;
-  height: auto;
-
-  width: 20%;
-  margin-right: 10%;
-  margin-left: 20%;
-  margin-top: -2%;
-}
-
-.img1{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 300px;
+  margin-left: 75px;
+  
 }
 
 
+.imagenes{
+  text-align: center;
+}
 
 .img2 {
   vertical-align: top;
@@ -47,24 +38,23 @@
   max-width: 100%;
   display: flex;
   margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
   margin-right: auto;
   border-style: none;
   border-radius: 80px;
 }
 
-.planes {
-
-    
-  /* margin: 240px; */
-  vertical-align: top;
+.planes{
+  margin-left: 80px;
 }
-
 .plan1 {
   border-style: none;
   vertical-align: top;
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
+  margin-right: 80px;
 }
 .plan2 {
   border-style: none;
@@ -72,6 +62,7 @@
   max-width: 100%;
   height: auto;
   box-sizing: border-box;
+  margin-right: 80px;
 }
 .plan3 {
   border-style: none;
@@ -91,8 +82,9 @@
 .slider{
   width: 100%;
   margin: auto;
-  height: 900px;
+  height: 600px;
   overflow: hidden;
+
 }
 
 .slider ul{
@@ -119,4 +111,44 @@
   25%{margin-left: -100%;}
   45%{margin-left: -100%;}
 
+}
+
+.button1{
+  margin-left: 190px;
+  background-color: rgb(133, 241, 228);
+  
+}
+.button2{
+  margin-left: 170px;
+  background-color: rgb(133, 241, 228);
+}
+.button3{
+  margin-left: 170px;
+  background-color: rgb(133, 241, 228);
+}
+.button4{
+  margin-left: 160px;
+  background-color: rgb(133, 241, 228);
+}
+
+.fuentes h3{
+  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+  color: blue;
+  border-color:white;
+}
+.CopyRight{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(0,203,234);
+  display: flex;
+}
+
+.pre{
+  margin-top: 30px;
+  margin-left: 90px;
+  color: white; 
+  font-family: sans-serif;
+  font-size: 13px;
+  align-items: center;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../components/navigation";
+import inicio from "./inicio";
 
 const index = () => {
   return (
@@ -11,4 +12,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default inicio;
