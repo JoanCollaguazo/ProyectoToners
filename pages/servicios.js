@@ -68,76 +68,42 @@ const servicios = () => {
         </div>
 
         {/* FOOTER */}
-        <footer className={styles.footerCuerpo}>
-          <div className={styles.container__footer}>
-            <div className={styles.box__footer}>
-              <div className={styles.logo}>
-                <img src="imagenes/Facturo-Logo-y-Redes-W.webp" alt=""></img>
+        <div className={styles.menuInferior}>
+              <div>
+                  <img style={{marginTop:"50px", marginLeft:"100px"}} src="https://i1.wp.com/www.facturo.ec/wp-content/uploads/2020/10/Facturo-Logo-y-Redes-W.png?resize=150%2C150&ssl=1"></img>
               </div>
-              <div className={styles.terms}></div>
-            </div>
-            <div className={styles.box__footer}>
-              <h2>Direcciones</h2>
-              <a
-                className={styles.url}
-                href="https://www.google.com.ec/maps/place/Calle+16B+%26+Calle+12,+Manta+130213/@-0.9554166,-80.7442438,17z/data=!3m1!4b1!4m5!3m4!1s0x902be142219d88e7:0xde77b10df587958!8m2!3d-0.955422!4d-80.7420551?hl=es"
-                target="_blank"
-              >
-                Manta:CALLE 12 Y CALLE 16 B
-              </a>
-              <a className={styles.url} href="#">
-                EDIFICIO MHC OFICINA 311
-              </a>
-              <a className={styles.url} href="#">
-                Quito:CALLE STO. DOMINGO DE
-              </a>
-              <a className={styles.url} href="#">
-                CARRETAS Y AV.SIMON BOLIVAR CASA NO.26
-              </a>
-            </div>
 
-            <div className={styles.box__footer}>
+              <div className={styles.Direcciones}>
+                  <h2>Direcciones</h2>
+                  <h3>Manta: CALLE 12 Y CALLE 16 B</h3>
+                  <h3>EDIFICIO MHC OFICINA 311</h3>
+                  <h3>Quito: CALLE STO.DOMINGO DE</h3>
+                  <h3>CARRETAS Y AV.SIMON BOLIVAR</h3>
+                  <h3>CASA NO.26</h3>
+              </div>
+                                 
+              <div className={styles.Contactos}>
               <h2>Contactos</h2>
-              <a className={styles.url} href="#">
-                Manta: 052590420
-              </a>
-              <a className={styles.url} href="#">
-                Quito: 023449064
-              </a>
-              <a className={styles.url} href="#">
-                Celulares: 0939272554
-              </a>
-              <a className={styles.url} href="#">
-                Email ventas: ventas@facturo.ec
-              </a>
-              <a className={styles.url} href="#">
-                Email ventas: ventas@facturo.ec
-              </a>
+                    <h3>  Manta: 052590420</h3>
+                    <h3>  Quito: 023449064</h3>
+                    <h3>  Celulares: 0939272554 – 0984785231</h3>
+                    <h3>  Email info: info@facturo.ec</h3>
+                    <h3>  Email ventas: ventas@facturo.ec</h3>
+              </div>
+
+              <div className={styles.Planes}>
+                      <h3>  PLANES</h3> 
+                      <h3>  SERVICIOS</h3>
+                      <h3>  CONTACTO</h3>
+                      <h3>  REGISTRO</h3>
+              </div>
+                
             </div>
 
-            <div className={styles.box__footer}>
-              <h2>Redes Sociales</h2>
-              <a
-                className={styles.url}
-                href="https://www.facebook.com/facturoec"
-                target="_blank"
-              >
-                <i className="fab fa-facebook-square"></i> Facebook
-              </a>
-
-              <a className={styles.url} href="https://www.instagram.com/facturoec/" target="_blank">
-                <i className="fab fa-instagram-square"></i> Instagram
-              </a>
+            <div className={styles.menuInferior2}>
+              <br></br>
+              <h3>Copyright 2021 Facturo &nbsp;  &nbsp;| &nbsp; &nbsp; Todos los derechos reservados &nbsp;  &nbsp; | &nbsp; &nbsp; Diseñado por CREAR HUB</h3>
             </div>
-          </div>
-
-          <div className={styles.box__copyright}>
-            <hr></hr>
-            <p>
-              Todos los derechos reservados © 2021 <b>Facturo</b>
-            </p>
-          </div>
-        </footer>
       </body>
     </div>
   );
