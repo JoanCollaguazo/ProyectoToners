@@ -2,40 +2,43 @@
   padding: 0;
   margin: 0; 
   box-sizing: border-box;
-  /* margin-top: 0;
-  margin-left: ;
-  margin-right: 10px; */
+}
+
+.divCentral{
+  display: flex;
+}
+
+.divInterior{
+  display: block;
+  width: 850px;
+  font-family: sans-serif ;
+  text-align: justify;
+}
+
+.h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #073863;
 }
 
 .p {
-  text-align: justify;
-  margin-left: 50%;
-  margin-right: 10%;
-  color: #396083;
-  box-sizing: border-box;
-  font-size: 13pt;
-}
-.h4 {
-  color: #073863;
-  text-align: center;
+font-family: sans-serif;
+font-size: 17px;
+line-height: 37px;
+color: #073863;
 }
 
 .img {
-  /* estilo reposiv */
-  border-style: none;
-  max-width: 100%;
-  height: auto;
-
-  width: 20%;
-  margin-right: 10%;
-  margin-left: 20%;
-  margin-top: -2%;
+  height: 200px;
+  width: 300px;
+  margin-left: 100px;
 }
 
 .img1{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 
@@ -50,48 +53,38 @@
   margin-right: auto;
   border-style: none;
   border-radius: 80px;
+  margin-bottom: 30px;
 }
 
 .planes {
-
-    
-  /* margin: 240px; */
-  vertical-align: top;
+  align-items: center;
+  margin-bottom: -4px;
 }
 
-.plan1 {
-  border-style: none;
-  vertical-align: top;
-  max-width: 100%;
-  height: auto;
-  box-sizing: border-box;
+.planes img{
+  height: 450px;
 }
-.plan2 {
-  border-style: none;
-  vertical-align: top;
-  max-width: 100%;
-  height: auto;
-  box-sizing: border-box;
+
+.plan1{
+  margin-left: 125px;
 }
-.plan3 {
-  border-style: none;
-  vertical-align: top;
-  max-width: 100%;
-  height: auto;
-  box-sizing: border-box;
+
+.plan2{
+  margin-left: 100px;
 }
-.plan4 {
-  border-style: none;
-  vertical-align: top;
-  max-width: 100%;
-  height: auto;
-  box-sizing: border-box;
+
+.plan3{
+  margin-left: 100px;
+}
+
+.plan4{
+  margin-left: 100px;
 }
 
 .slider{
   width: 100%;
   margin: auto;
-  height: 900px;
+  height: 550px;
   overflow: hidden;
 }
 
@@ -119,4 +112,131 @@
   25%{margin-left: -100%;}
   45%{margin-left: -100%;}
 
+}
+.img2Slider{
+  height: 485px;
+}
+
+.boton1{
+  background-color: rgb(136,239,224) ;
+  border-color: rgb(136,239,224) ;
+  width: 120px;
+  margin-left: 170px;
+}
+
+.boton2{
+  background-color: rgb(136,239,224) ;
+  border-color: rgb(136,239,224) ;
+  width: 120px;
+  margin-left: 180px;
+}
+
+.boton3{
+  background-color: rgb(136,239,224) ;
+  border-color: rgb(136,239,224) ;
+  width: 120px;
+  margin-left: 180px;
+}
+
+.boton4{
+  background-color: rgb(136,239,224) ;
+  border-color: rgb(136,239,224) ;
+  width: 120px;
+  margin-left: 180px;
+}
+
+.boton1 h3{
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(0,90,216) ;
+}
+
+.boton2 h3{
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(0,90,216) ;
+}
+
+.boton3 h3{
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(0,90,216) ;
+}
+
+.boton4 h3{
+  font-size: 14px;
+  font-family: sans-serif;
+  color: rgb(0,90,216) ;
+}
+
+.botonesPlanes{
+  margin-bottom: 50px;
+}
+
+.menuInferior{
+  background-color: rgb(0,209,242);
+  display: flex;
+}
+
+.Direcciones{
+  margin-bottom: 75px;
+}
+.Direcciones h2{
+  margin-left: 150px;
+  margin-top: 70px;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: white;
+}
+
+.Direcciones h3{
+  margin-left: 150px;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: white;
+}
+
+.Contactos h2{
+  margin-left: 100px;
+  margin-top: 70px;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: white;
+}
+
+.Contactos h3{
+  margin-left: 100px;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: white;
+}
+
+.Planes{
+  margin-top: 70px;
+}
+
+.Planes h3{
+  margin-left: 100px;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: white;
+}
+
+.menuInferior2{
+  margin-top: 1px;
+  background-color: rgb(0,209,242) ;
+  height: 75px;
+}
+
+.menuInferior2 h3{
+  margin-left: 150px;
+  font-size: 12px;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: white;
 }
