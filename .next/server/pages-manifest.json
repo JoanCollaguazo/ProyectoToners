@@ -2,9 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/registro": "pages/registro.js",
+  "/contacto": "pages/contacto.js",
   "/planes": "pages/planes.js",
   "/servicios": "pages/servicios.js",
-  "/inicio": "pages/inicio.js",
-  "/registro": "pages/registro.js",
-  "/contacto": "pages/contacto.js"
+  "/inicio": "pages/inicio.js"
 }

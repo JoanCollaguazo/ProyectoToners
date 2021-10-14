@@ -1,0 +1,116 @@
+.entero{
+    background-color: rgb(241,240,236) ;
+    width: 100%;
+}
+.encabezado{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.cuerpo{
+    display: flex;
+    background-color: rgb(241,240,236) ;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.cuerpo h3{
+    margin-left: 100px;
+}
+
+.cuerpo p{
+    margin-left: 15px;
+}
+
+.cuadro{
+    background-color: rgb(42,84,119);
+    width: 750px;
+    height: 600px;
+    margin-left: 50px;
+}
+.cuadro h3{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 37px;
+    color: white;
+    margin-left: 0px;
+}
+.cuadro input{
+    width: 175px;
+    height: 40px;
+   
+}
+.button{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 150px;
+    height: 65px;
+    background-color: rgb(194,226,124);
+}
+.menuInferior{
+    background-color: rgb(0,209,242);
+    display: flex;
+  }
+  
+  .Direcciones{
+    margin-bottom: 75px;
+  }
+  .Direcciones h2{
+    margin-left: 150px;
+    margin-top: 70px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: white;
+  }
+  
+  .Direcciones h3{
+    margin-left: 150px;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: white;
+  }
+  
+  .Contactos h2{
+    margin-left: 100px;
+    margin-top: 70px;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: white;
+  }
+  
+  .Contactos h3{
+    margin-left: 100px;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: white;
+  }
+  
+  .Planes{
+    margin-top: 70px;
+  }
+  
+  .Planes h3{
+    margin-left: 100px;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: white;
+  }
+  
+  .menuInferior2{
+    margin-top: 1px;
+    background-color: rgb(0,209,242) ;
+    height: 75px;
+  }
+  
+  .menuInferior2 h3{
+    margin-left: 150px;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 30px;
+    color: white;
+  }
